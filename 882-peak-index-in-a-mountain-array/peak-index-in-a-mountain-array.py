@@ -8,6 +8,6 @@ class Solution:
             if(arr[mid] < arr[mid-1]):
                 high = mid 
             elif(arr[mid]<arr[mid+1]):
-                low = mid
+                low = mid +1
             else:
                 return mid
